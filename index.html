@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Sign-up page
+	</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"
+	</head>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+<body>
+    <img class="logo" src="logo.png">
+
+    <form class="signupform" action="/signup/" method="post">
+         
+         <fieldset>
+         	<legend>Sign up</legend>
+              
+              <label for="user-email" id="emailuser"> E-mail </label>
+              <input type="e-mail" name="user-email" id="user-email" placeholder="foo@bar.com" required />
+
+              <label for="user-password" id="passworduser" > Password </label>
+              <input type="Password" placeholder="1234passwOrd" required>     	
+              <button type="sign-up">Sign up</button>
+      
+         
+         </fieldset>
+
+    </form>	
+
+    <div class="login-option">
+      <p>Already have an account ? <a href="https://www.google.com">Log in</a></p>
+    </div>
+</body>
+</html>
